@@ -1,0 +1,9 @@
+name: chatgpt 
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9.13
+  - pip=22.3.1
+  - pip:
+      - -r requirements.txt
