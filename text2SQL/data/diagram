@@ -1,0 +1,12 @@
+digraph G {
+    tracks -> albums;
+    tracks -> genres;
+    tracks -> media_types;
+    albums -> artists;
+    customers -> employees;
+    invoices -> customers;
+    invoice_items -> invoices;
+    invoice_items -> tracks;
+    playlists -> playlist_track;
+    playlist_track -> tracks;
+}
