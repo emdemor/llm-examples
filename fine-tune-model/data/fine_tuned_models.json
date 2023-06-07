@@ -1,0 +1,264 @@
+{
+  "data": [
+    {
+      "created_at": 1683164578,
+      "fine_tuned_model": null,
+      "hyperparams": {
+        "batch_size": null,
+        "classification_n_classes": 21,
+        "compute_classification_metrics": true,
+        "learning_rate_multiplier": null,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-ns2NaBdg7K6OmKZjzAtyFQyq",
+      "model": "ada",
+      "object": "fine-tune",
+      "organization_id": "org-yzPWxEUSZLqRz4MXVmn603J3",
+      "result_files": [],
+      "status": "failed",
+      "training_files": [
+        {
+          "bytes": 227021,
+          "created_at": 1683164575,
+          "filename": "data/processed/validation-fine-tune_prepared_train.jsonl",
+          "id": "file-HEYJ88K5AYO2K6mxkkDlYIHZ",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1683164645,
+      "validation_files": [
+        {
+          "bytes": 56780,
+          "created_at": 1683164577,
+          "filename": "data/processed/validation-fine-tune_prepared_valid.jsonl",
+          "id": "file-3f5zNiBuvIJkLwa8Lw0JzL8X",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ]
+    },
+    {
+      "created_at": 1683165358,
+      "fine_tuned_model": "ada:ft-personal-2023-05-04-01-58-24",
+      "hyperparams": {
+        "batch_size": 1,
+        "classification_n_classes": 7,
+        "compute_classification_metrics": true,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-irbuZ6tAQLCrGlBQvdyJgXSK",
+      "model": "ada",
+      "object": "fine-tune",
+      "organization_id": "org-yzPWxEUSZLqRz4MXVmn603J3",
+      "result_files": [
+        {
+          "bytes": 16813,
+          "created_at": 1683165505,
+          "filename": "compiled_results.csv",
+          "id": "file-JDRNUd7GcAFUg5JEzDw5RsQ7",
+          "object": "file",
+          "purpose": "fine-tune-results",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "status": "succeeded",
+      "training_files": [
+        {
+          "bytes": 243664,
+          "created_at": 1683165356,
+          "filename": "data/processed/data-fine-tune_prepared_train.jsonl",
+          "id": "file-oVFAtLkB0NMIlfOgE2MMN4HD",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1683165506,
+      "validation_files": [
+        {
+          "bytes": 57302,
+          "created_at": 1683165358,
+          "filename": "data/processed/data-fine-tune_prepared_valid.jsonl",
+          "id": "file-8xF1ZIQtiI4JweCGFANh8FVP",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ]
+    },
+    {
+      "created_at": 1683166959,
+      "fine_tuned_model": "ada:ft-personal:classificador-de-noticias-2023-05-04-02-34-59",
+      "hyperparams": {
+        "batch_size": 1,
+        "classification_n_classes": 7,
+        "compute_classification_metrics": true,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-7WwXO68yE2Y4m4hc697LB7gj",
+      "model": "ada",
+      "object": "fine-tune",
+      "organization_id": "org-yzPWxEUSZLqRz4MXVmn603J3",
+      "result_files": [
+        {
+          "bytes": 164462,
+          "created_at": 1683167701,
+          "filename": "compiled_results.csv",
+          "id": "file-VeRCLwWPJOlvJxdH3BvjVqZQ",
+          "object": "file",
+          "purpose": "fine-tune-results",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "status": "succeeded",
+      "training_files": [
+        {
+          "bytes": 2282206,
+          "created_at": 1683166956,
+          "filename": "data/processed/data-fine-tune_prepared_train.jsonl",
+          "id": "file-4WQPyVFN7dqNy1jBf4ZbuOW4",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1683167701,
+      "validation_files": [
+        {
+          "bytes": 588884,
+          "created_at": 1683166959,
+          "filename": "data/processed/data-fine-tune_prepared_valid.jsonl",
+          "id": "file-YTdSVaW5f4JWhJEAM8tI60Ch",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ]
+    },
+    {
+      "created_at": 1683251914,
+      "fine_tuned_model": "ada:ft-personal:classificador-de-noticias-2023-05-05-02-20-20",
+      "hyperparams": {
+        "batch_size": 2,
+        "classification_n_classes": 7,
+        "compute_classification_metrics": true,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-kAnRY32E4QxojxzNmAlwMv7A",
+      "model": "ada",
+      "object": "fine-tune",
+      "organization_id": "org-yzPWxEUSZLqRz4MXVmn603J3",
+      "result_files": [
+        {
+          "bytes": 177245,
+          "created_at": 1683253221,
+          "filename": "compiled_results.csv",
+          "id": "file-kYzyMkBYOP8BUJa2gbxu1PNc",
+          "object": "file",
+          "purpose": "fine-tune-results",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "status": "succeeded",
+      "training_files": [
+        {
+          "bytes": 1040194,
+          "created_at": 1683251911,
+          "filename": "data/processed/data-fine-tune_prepared_train.jsonl",
+          "id": "file-Hi5IAFqeGX8CzZvpCtSgf4nZ",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1683253221,
+      "validation_files": [
+        {
+          "bytes": 261425,
+          "created_at": 1683251914,
+          "filename": "data/processed/data-fine-tune_prepared_valid.jsonl",
+          "id": "file-D3HvPwDWfRRjC0PyGvkKSy7j",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ]
+    },
+    {
+      "created_at": 1686102860,
+      "fine_tuned_model": "ada:ft-personal:classificador-de-noticias-2023-06-07-02-04-38",
+      "hyperparams": {
+        "batch_size": 1,
+        "classification_n_classes": 7,
+        "compute_classification_metrics": true,
+        "learning_rate_multiplier": 0.1,
+        "n_epochs": 4,
+        "prompt_loss_weight": 0.01
+      },
+      "id": "ft-VQyisXETWQCVKfZP0yxQzoTv",
+      "model": "ada",
+      "object": "fine-tune",
+      "organization_id": "org-yzPWxEUSZLqRz4MXVmn603J3",
+      "result_files": [
+        {
+          "bytes": 120271,
+          "created_at": 1686103480,
+          "filename": "compiled_results.csv",
+          "id": "file-svx0KScsjZmK4Fi8eqx7rXi5",
+          "object": "file",
+          "purpose": "fine-tune-results",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "status": "succeeded",
+      "training_files": [
+        {
+          "bytes": 369338,
+          "created_at": 1686102856,
+          "filename": "data/news-sample_prepared_train.jsonl",
+          "id": "file-9B2SVlFmewHRmnggo2a6lmHy",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ],
+      "updated_at": 1686103480,
+      "validation_files": [
+        {
+          "bytes": 92551,
+          "created_at": 1686102859,
+          "filename": "data/news-sample_prepared_valid.jsonl",
+          "id": "file-83dVYnyrrclNRgFyaphuxENy",
+          "object": "file",
+          "purpose": "fine-tune",
+          "status": "processed",
+          "status_details": null
+        }
+      ]
+    }
+  ],
+  "object": "list"
+}
